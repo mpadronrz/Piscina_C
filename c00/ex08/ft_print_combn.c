@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/15 11:40:10 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/15 12:43:01 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:48:24 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,9 +68,3 @@ void	ft_print_combn(int n)
 	}
 	print_num(n, num_max);
 }
-/*
-int	main(void)
-{
-	ft_print_combn(9);
-	return (0);
-}*/

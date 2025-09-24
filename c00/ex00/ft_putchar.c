@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 17:31:37 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/26 16:27:28 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:47:32 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "a.h"
@@ -14,9 +14,4 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-}
-
-int main()
-{
-	ft_putchar('c');
 }

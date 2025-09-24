@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/21 13:05:42 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/21 13:53:25 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:55:58 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	is_space(char c)
@@ -85,8 +85,8 @@ int	ft_atoi_base(char *str, char *base)
 	return (sign * n);
 }
 
-int	main(int argc, char **argv)
+/*int	main(int argc, char **argv)
 {
 	printf("%d\n", ft_atoi_base(argv[1], argv[2]));
 	return (0);
-}
+}*/

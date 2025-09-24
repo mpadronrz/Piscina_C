@@ -6,7 +6,7 @@
 /*   By: mapadron <mapadron@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/19 15:16:32 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/25 19:24:01 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:51:12 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -34,8 +34,8 @@ char	*ft_strstr(char *str, char *to_find)
 	return (NULL);
 }
 
-int main(int argc, char **argv)
+/*int main(int argc, char **argv)
 {
 	printf("%s\n", ft_strstr(argv[1], argv[2]));
 	return (0);
-}
+}*/

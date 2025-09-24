@@ -6,7 +6,7 @@
 /*   By: mapadron <mapadron@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/25 13:21:16 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/26 12:47:13 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:59:30 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdlib.h>
@@ -80,7 +80,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (dest);
 }
 
-int	main(int argc, char **argv)
+/*int	main(int argc, char **argv)
 {
 	char *sep = argv[2];
 	char **strs = &argv[3];
@@ -90,4 +90,4 @@ int	main(int argc, char **argv)
 	printf("%s\n", dest);
 	free(dest);
 	return (0);
-}
+}*/

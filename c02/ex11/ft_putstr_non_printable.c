@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/17 21:47:45 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/23 22:36:23 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:50:12 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -41,10 +41,4 @@ void	ft_putstr_non_printable(char *str)
 			print_hexadecimal(*str);
 		str ++;
 	}
-}
-
-int	main(void)
-{
-	ft_putstr_non_printable("Cou€cou\ntu vás bien ?");
-	return (0);
 }

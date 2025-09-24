@@ -6,7 +6,7 @@
 /*   By: mapadron <mapadron@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/25 17:30:48 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/26 12:47:51 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:59:43 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdlib.h>
@@ -71,11 +71,11 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 	return (new_nbr);
 }
 
-int	main(int argc, char **argv)
+/*int	main(int argc, char **argv)
 {
 	char *nbr;
 	nbr = ft_convert_base(argv[1], argv[2], argv[3]);
 	printf("%s\n", nbr);
 	free(nbr);
 	return (0);
-}
+}*/

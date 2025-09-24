@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/20 21:42:14 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/21 13:53:57 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:55:34 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,9 @@ int	ft_atoi(char *str)
 	return (sign * n);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int	main(int argc, char **argv)
 {
 	printf("%d\n", ft_atoi(argv[1]));
 	return (0);
-}
+}*/

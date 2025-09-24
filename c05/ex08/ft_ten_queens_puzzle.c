@@ -6,7 +6,7 @@
 /*   By: mapadron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/22 11:50:14 by mapadron          #+#    #+#             */
-/*   Updated: 2025/08/23 22:42:06 by mapadron         ###   ########.fr       */
+/*   Updated: 2025/09/24 10:57:40 by mapadron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -65,9 +65,9 @@ int	add_queen(char *placed, int nb)
 	return (number_solutions);
 }
 
-int	ft_ten_queens_puzzle(void)
+/*int	ft_ten_queens_puzzle(void)
 {
 	char	placed[10];
 
 	return (add_queen(placed, 0));
-}
+}*/
